@@ -32,7 +32,9 @@ unpublished         : false
 
 # Plugins
 whitelist           : []
-plugins             : []
+plugins             :
+  - jekyll-feed
+  - jekyll-sitemap
 
 # Conversion
 markdown            : kramdown
