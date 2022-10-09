@@ -1,0 +1,51 @@
+---
+layout: page
+title: "Home"
+---
+<section class="full-screen-section first-section">
+  <div class="first-section__wrap">
+    <h2 class="first-section__title">ようこそ！</h2>
+    <p class="first-section__body">
+      個性派文庫へようこそ。このサイトは読書好きが高じて物書き好きになった人の集まりが作った小説掲載サイトです。まだまだへたくそですが生ぬるい目で見ていってください。
+    </p>
+  </div>
+  </section>
+<section class="full-screen-section">
+  <h2 class="full-screen-section__title">NEWS!</h2>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <time>{{ post.time}}</time><h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+<section class="full-screen-section">
+  <h2 class="full-screen-section__title">小説</h2>
+  <div class="card">
+    <h3 class="card__title"><a href="{{"/novel/michael-fragment.html| }}" class="card__link">ミカエル・フラグメント</a></h3>
+    <div class="card__author">鬼詠雪介</div>
+    <p class="card__body">{% include michael-fragment.txt %}</p>
+  </div>
+  <div class="card">
+    <h3 class="card__title"><a href="{{"/novel/lost-fragment.html | }}" class="card__link">ロスト・フラグメント</a></h3>
+    <div class="card__author">鬼詠雪介</div>
+    <p class="card__body">{% include lost-fragment.txt %}</p>
+  </div>
+  <div class="card">
+    <h3 class="card__title"><a href="{{"/novel/mythology-of-four-gods.html" | }}" class="card__link">ミソロジーオブフォーゴッデス</a></h3>
+    <div class="card__author">雪</div>
+    <p class="card__body">{% include mythology-of-four-gods.txt %}</p>
+  </div>
+  <div class="card">
+    <h3 class="card__title"><a href="{{"/novel/inheritance-child.html | }}" class="card__link">インヘリタンスチャイルド</a></h3>
+    <div class="card__author">雪</div>
+    <p class="card__body">{% include inheritance-child.txt %}</p>
+  </div>
+  <div class="card">
+    <h3 class="card__title"><a href="{{"/novel/world-creation-log.html | }}" class="card__link">世創記</a></h3>
+    <div class="card__author">水天久麻</div>
+    <p class="card__body">{% include world-creation-log.txt %}</p>
+  </div>
+</section>
