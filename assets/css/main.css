@@ -1,3 +1,115 @@
 ---
 ---
 
+/*ヘッダー*/
+.header {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  padding: 0.5em 1em;
+  background-color: black;
+  top: 0;
+}
+
+.header__logo {
+  height: 1em;
+  line-height: 1em;
+  color: white;
+}
+
+.header__navigation {
+  margin: auto 0 auto auto;
+}
+
+.header__item-container {
+  display: flex;
+}
+
+.header__item {
+  list-style: none;
+  padding-right: 10px;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+
+.header__dropdown-list {
+  display: none;
+  position: absolute;
+  right: 0.5em;
+  background-color: black;
+  padding: 0.5em;
+  box-shadow: 0 0 10px 0 black;
+}
+
+.header__dropdown-list-item {
+  list-style: none;
+  margin-top: 0.25em;
+}
+
+.header__item:hover .header__dropdown-list {
+  display: block;
+}
+
+/*メイン*/
+.section{
+  width: 100vw;
+  padding: 5vw;
+}
+
+.full-screen-section{
+  width: 100vw;
+  height: 100vh;
+  padding: 10vmin;
+}
+
+.full-screen-section__title{
+  width: 100%;
+}
+
+.first-section{
+  display: flex;
+  align-items: center;
+}
+
+.first-section__wrap{
+}
+
+.first-section__body{
+  width: 12em;
+}
+
+/*フッター*/
+.footer {
+  background-color: black;
+  padding: 3vmax 5vmax;
+  color: white;
+}
+
+.footer__lists-container {
+  display: flex;
+}
+
+.footer__lists {
+  width: 25%;
+}
+
+.footer-list__item {
+  list-style: none;
+  margin-left: 1em;
+}
+
+.footer-list__link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-list__link:hover {
+  text-decoration: underline;
+}
