@@ -18,6 +18,11 @@
   color: white;
 }
 
+.header__logo-link{
+  color: inherit;
+  text-decoration: none;
+}
+
 .header__navigation {
   margin: auto 0 auto auto;
 }
@@ -60,11 +65,24 @@
 }
 
 /*メイン*/
+
+.main{
+  padding-top: 2em;
+}
+
 .section{
   width: 100vw;
   padding: 5vw;
   background-color: #F3F2F2;
   box-sizing: border-box;
+}
+
+.section__novel-author{
+  text-align: right;
+}
+
+.section__body{
+  margin: 0.5em 0 0.5em 0.5em;
 }
 
 .full-screen-section{
