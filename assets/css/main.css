@@ -7,8 +7,9 @@
   width: 100vw;
   display: flex;
   padding: 0.5em 1em;
-  background-color: black;
+  background-color: #c67700;
   top: 0;
+  box-sizing: border-box;
 }
 
 .header__logo {
@@ -31,8 +32,8 @@
 }
 
 .header__link {
-  color: white;
   text-decoration: none;
+  color: #F3F2F2;
 }
 
 .header__link:hover {
@@ -43,7 +44,8 @@
   display: none;
   position: absolute;
   right: 0.5em;
-  background-color: black;
+  background-color: #c67700;
+  color: #c67700;
   padding: 0.5em;
   box-shadow: 0 0 10px 0 black;
 }
@@ -61,12 +63,23 @@
 .section{
   width: 100vw;
   padding: 5vw;
+  background-color: #F3F2F2;
+  box-sizing: border-box;
 }
 
 .full-screen-section{
   width: 100vw;
   height: 100vh;
   padding: 10vmin;
+  align-items: center;
+  display: flex;
+  background-color: #F3F2F2;
+  box-sizing: border-box;
+}
+
+.full-screen-section__wrap{
+  width: 100%;
+  height: 80%;
 }
 
 .full-screen-section__title{
@@ -76,20 +89,73 @@
 .first-section{
   display: flex;
   align-items: center;
+  background-size:cover;
+  background-position: right bottom;
+  background-image: url({{"/assets/img/susan-q-yin-2JIvboGLeho-unsplash.jpg" | relative_url}});
 }
 
-.first-section__wrap{
+.first-section__title{
+  background-color: #F3F2F2;
 }
 
 .first-section__body{
   width: 12em;
+  padding: 0.5em;
+  background-color: #F3F2F2;
+}
+
+.slider{
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  background-color: #c67700;
+  height: 100%;
+}
+
+.slider__item{
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  margin: 0.5em;
+}
+
+.card{
+  width: 20em;
+  padding: 0.5em;
+  background-color: white;
+}
+
+.card__title{
+  text-align: center;
+  margin: 0.75em auto;
+}
+
+.card__author{
+  text-align: right;
+}
+
+.card__body{
+  height: 70%;
+  margin: 0.75em auto;
+}
+
+.card__button{
+  display: block;
+  padding: 0.5em;
+  background-color: #945400;
+  color: #F3F2F2;
+  text-decoration: none;
+  margin: auto 0 0 auto;
+  width: 25%;
+  border-radius: 5px;
+  text-align: center;
 }
 
 /*フッター*/
 .footer {
-  background-color: black;
+  background-color: #c67700;
   padding: 3vmax 5vmax;
-  color: white;
+  color: #F3F2F2;
 }
 
 .footer__lists-container {
