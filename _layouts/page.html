@@ -29,6 +29,9 @@ layout: default
       </na>
 </header>
 <main class="main">
+  {% if page.title !="Home" %}
+    <h2 class="main__title">{{ page.title }}</h2>
+  {% endif %}
   {{content}}
 </main>
 <footer class="footer">
