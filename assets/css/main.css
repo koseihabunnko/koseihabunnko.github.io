@@ -10,6 +10,7 @@
   background-color: #c67700;
   top: 0;
   box-sizing: border-box;
+  z-index: 255;
 }
 
 .header__logo {
@@ -68,6 +69,14 @@
 
 .main{
   padding-top: 2em;
+  background-color: #F3F2F2;
+}
+
+.main__title{
+  margin: 5vw;
+  border-width: 0 0 2px 0;
+  border-style:solid;
+  border-color: #945400;
 }
 
 .section{
@@ -83,6 +92,10 @@
 
 .section__body{
   margin: 0.5em 0 0.5em 0.5em;
+}
+
+.section__button{
+  margin: auto 0 auto auto;
 }
 
 .full-screen-section{
@@ -112,14 +125,17 @@
   background-image: url({{"/assets/img/susan-q-yin-2JIvboGLeho-unsplash.jpg" | relative_url}});
 }
 
+.first-section__wrap{
+  padding: 1em;
+  color: #F3F2F2;
+  text-shadow: 0 0 10px black;
+}
+
 .first-section__title{
-  background-color: #F3F2F2;
 }
 
 .first-section__body{
   width: 12em;
-  padding: 0.5em;
-  background-color: #F3F2F2;
 }
 
 .slider{
@@ -141,6 +157,7 @@
   width: 20em;
   padding: 0.5em;
   background-color: #F3F2F2;
+  position: relative;
 }
 
 .card__title{
@@ -154,19 +171,29 @@
 
 .card__body{
   height: 70%;
+  text-overflow: ellipsis;
   margin: 0.75em auto;
 }
 
 .card__button{
+  position: absolute;
+  right: 0.5em;
+  bottom: 0.5em;
+}
+
+.button{
   display: block;
-  padding: 0.5em;
+  padding: 0.5em 1em;
   background-color: #945400;
   color: #F3F2F2;
   text-decoration: none;
-  margin: auto 0 0 auto;
-  width: 25%;
   border-radius: 5px;
   text-align: center;
+  width: max-content;
+}
+
+.button:hover{
+  background-color: #b66700;
 }
 
 /*フッター*/
