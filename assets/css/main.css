@@ -224,3 +224,21 @@
 .footer-list__link:hover {
   text-decoration: underline;
 }
+
+.novel{
+  writing-mode: vertical-rl;
+  display: flex;
+  padding: 10%;
+  align-items: center;
+  height: 100%;
+}
+
+.novel__wrap{
+  display: block;
+  height: 148mm;
+  margin: auto;
+}
+
+.novel__body{
+  margin-top: 5%;
+}
