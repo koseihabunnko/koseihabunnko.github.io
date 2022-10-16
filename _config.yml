@@ -54,7 +54,7 @@ show_dir_listing    : false
 # Outputting
 permalink           : date
 paginate_path       : /page:num
-timezone            : JP
+timezone            : null
 
 quiet               : false
 verbose             : false
