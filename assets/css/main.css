@@ -17,11 +17,20 @@
   height: 1em;
   line-height: 1em;
   color: white;
+  margin: auto auto auto 0;
 }
 
 .header__logo-link{
   color: inherit;
   text-decoration: none;
+}
+
+.header__menu-button{
+  display: none;
+}
+
+.header__menu-button-label{
+  display: none;
 }
 
 .header__navigation {
@@ -115,6 +124,7 @@
 
 .full-screen-section__title{
   width: 100%;
+  margin: 1em 0;
 }
 
 .first-section{
@@ -205,10 +215,11 @@
 
 .footer__lists-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .footer__lists {
-  width: 25%;
+  margin-right: 10%;
 }
 
 .footer-list__item {
@@ -223,4 +234,41 @@
 
 .footer-list__link:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width:480px) {
+  .header__navigation{
+    display: none;
+  }
+  .header__menu-button{
+    display: none;
+  }
+  .header__menu-button-label{
+    display: block;
+    height: 100%;
+  }
+  .header__item{
+    width: 100%;
+  }
+  .header__item-container{
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .header__menu-button:checked ~ .header__navigation{
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    top: auto;
+    bottom: auto;
+    left: 0;
+    align-items: center;
+    background-color: #b6670079;
+  }
+  .section{
+    padding: 3vw;
+  }
+  .full-screen-section{
+    padding: 5vmin;
+  }
 }

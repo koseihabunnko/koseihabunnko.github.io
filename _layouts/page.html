@@ -3,7 +3,10 @@ layout: default
 ---
 <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url}}">
 <header class="header">
-  <h1 class="header__logo"><a href="{{ "/index.html" | relative_url }}" class="header__logo-link">個性派文庫</a></h1>
+  <h1 class="header__logo"><a href="{{ "/index.html" | relative_url }}" class="header__logo-link">個性派文庫</a></h1> <input
+    type="checkbox" name="menu-button" id="menu-button" class="header__menu-button">
+  <label class="header__menu-button-label" for="menu-button"><img
+      src="{{ "/assets/img/menu_FILL0_wght400_GRAD0_opsz48.png" |relative_url}}" alt=""></label>
   <nav class="header__navigation">
     <ul class="header__item-container">
       <li class="header__item">
@@ -29,7 +32,7 @@ layout: default
 </header>
 <main class="main">
   {% if page.title !="Home" %}
-    <h2 class="main__title">{{ page.title }}</h2>
+  <h2 class="main__title">{{ page.title }}</h2>
   {% endif %}
   {{content}}
 </main>
@@ -50,7 +53,8 @@ layout: default
             class="footer-list__link">ミカエル・フラグメント</a></li>
         <li class="footer-list__item"><a href="{{" /novel/lost-fragment/table-of-contents.html" | relative_url}}"
             class="footer-list__link">ロスト・フラグメント</a></li>
-        <li class="footer-list__item"><a href="{{" /novel/mythology-of-four-gods/table-of-contents.html" | relative_url}}"
+        <li class="footer-list__item"><a
+            href="{{" /novel/mythology-of-four-gods/table-of-contents.html" | relative_url}}"
             class="footer-list__link">ミソロジーオブフォーゴッデス</a></li>
         <li class="footer-list__item"><a href="{{" /novel/inheritance-child/table-of-contents.html" | relative_url}}"
             class="footer-list__link">インヘリタンスチャイルド</a>
