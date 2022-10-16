@@ -1,5 +1,6 @@
 ---
 ---
+
 li{
   list-style: none;
   margin-top: 1em;
@@ -15,6 +16,12 @@ a{
   align-items: center;
   height: 100%;
   margin: auto 0 auto auto;
+  line-height: 18pt;
+  font-size: 10.5pt;
+}
+
+h2{
+  margin: 1em;
 }
 
 .novel__wrap{
@@ -25,4 +32,10 @@ a{
 
 .novel__body{
   margin-top: 5%;
+}
+p{
+  margin-right: 10pt;
+}
+rt{
+  font-size: 3pt;
 }

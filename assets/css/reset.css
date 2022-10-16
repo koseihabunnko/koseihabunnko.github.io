@@ -4,6 +4,8 @@
    # Global selectors
    # ================================================================= */
 
+   @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap');
+
    html {
     box-sizing: border-box;
     -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS */
@@ -17,6 +19,7 @@
   ::after {
     background-repeat: no-repeat; /* Set `background-repeat: no-repeat` to all elements and pseudo elements */
     box-sizing: inherit;
+    font-family: 'Shippori Mincho', serif;
   }
   
   ::before,
