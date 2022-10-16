@@ -1,0 +1,18 @@
+---
+layout: page
+title: ブログトップ
+---
+<section class="full-screen-section">
+  <div class="full-screen-section__wrap">
+    <h2 class="full-screen-section__title">NEWS!</h2>
+    <ul>
+      {% for post in site.posts %}
+      <li>
+        <time>{{ post.time}}</time>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {{ post.excerpt }}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
