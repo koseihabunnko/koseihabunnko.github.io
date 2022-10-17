@@ -1,34 +1,34 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url}}">
+<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 <header class="header">
   <h1 class="header__logo"><a href="{{ "/index.html" | relative_url }}" class="header__logo-link">個性派文庫</a></h1> <input
     type="checkbox" name="menu-button" id="menu-button" class="header__menu-button">
   <label class="header__menu-button-label" for="menu-button"><img
-      src="{{ "/assets/img/menu_FILL0_wght400_GRAD0_opsz48.png" |relative_url}}" alt=""></label>
+      src="{{ "/assets/img/menu_FILL0_wght400_GRAD0_opsz48.png" |relative_url }}" alt=""></label>
   <nav class="header__navigation">
     <ul class="header__item-container">
       <li class="header__item">
-        <a class="header__link" href="{{" /novel.html" | relative_url}}">小説</a>
+        <a class="header__link" href="{{ "/novel.html" | relative_url }}">小説</a>
         <ul class="header__dropdown-list">
-          <li class="header__dropdown-list-item"><a class="header__link" href="{{" /novel/michael-fragment/table-of-contents.html" |
-              relative-url }}">ミカエル・フラグメント</a></li>
-          <li class="header__dropdown-list-item"><a class="header__link" href="{{" /novel/lost-fragment/table-of-contents.html" |
-              relative-url }}">ロスト・フラグメント</a></li>
-          <li class="header__dropdown-list-item"><a class="header__link" href="{{" /novel/mythology-of-four-gods/table-of-contents.html" |
-              relative-url }}">ミソロジーオブフォーゴッデス</a></li>
-          <li class="header__dropdown-list-item"><a class="header__link" href="{{" /novel/inheritance-child/table-of-contents.html" |
-              relative-url }}">インヘリタンスチャイルド</a></li>
-          <li class="header__dropdown-list-item"><a class="header__link" href="{{" /novel/world-creation-log/table-of-contents.html" |
-              relative-url }}">世創記</a></li>
+          <li class="header__dropdown-list-item"><a class="header__link" href="{{"/novel/michael-fragment/table-of-contents.html" |
+              relative_url }}">ミカエル・フラグメント</a></li>
+          <li class="header__dropdown-list-item"><a class="header__link" href="{{"/novel/lost-fragment/table-of-contents.html" |
+              relative_url }}">ロスト・フラグメント</a></li>
+          <li class="header__dropdown-list-item"><a class="header__link" href="{{"/novel/mythology-of-four-gods/table-of-contents.html" |
+              relative_url }}">ミソロジーオブフォーゴッデス</a></li>
+          <li class="header__dropdown-list-item"><a class="header__link" href="{{"/novel/inheritance-child/table-of-contents.html" |
+              relative_url }}">インヘリタンスチャイルド</a></li>
+          <li class="header__dropdown-list-item"><a class="header__link" href="{{"/novel/world-creation-log/table-of-contents.html" |
+              relative_url }}">世創記</a></li>
         </ul>
       </li>
-      <li class="header__item"><a class="header__link" href="{{" /blog.html" | relative_url}}">ブログ</a></li>
-      <li class="header__item"><a class="header__link" href="{{" /about.html" | relative_url}}">About</a></li>
-      <li class="header__item"><a class="header__link" href="{{" /rule.html" | relative_url}}">利用規約</a></li>
-      </ol>
-      </na>
+      <li class="header__item"><a class="header__link" href="{{ "/blog.html" | relative_url }}">ブログ</a></li>
+      <li class="header__item"><a class="header__link" href="{{ "/about.html" | relative_url }}">About</a></li>
+      <li class="header__item"><a class="header__link" href="{{ "/rule.html" | relative_url }}">利用規約</a></li>
+    </ul>
+  </nav>
 </header>
 <main class="main">
   {% if page.title !="Home" %}
@@ -40,26 +40,26 @@ layout: default
   <h2>個性派文庫</h2>
   <div class="footer__lists-container">
     <ul class="footer__lists footer-list">
-      <li class="footer-list__item"><a href="{{" /index.html" | relative_url}}" class="footer-list__link">ホーム</a></li>
-      <li class="footer-list__item"><a href="{{" /novel.html" | relative_url}}" class="footer-list__link">小説</a></li>
-      <li class="footer-list__item"><a href="{{" /blog.html" | relative_url}}" class="footer-list__link">ブログ</a></li>
-      <li class="footer-list__item"><a href="{{" /about.html" | relative_url}}" class="footer-list__link">About</a></li>
-      <li class="footer-list__item"><a href="{{" /rule.html" | relative_url}}" class="footer-list__link">利用規約</a></li>
+      <li class="footer-list__item"><a href="{{ "/index.html" | relative_url }}" class="footer-list__link">ホーム</a></li>
+      <li class="footer-list__item"><a href="{{ "/novel.html" | relative_url }}" class="footer-list__link">小説</a></li>
+      <li class="footer-list__item"><a href="{{ "/blog.html" | relative_url }}" class="footer-list__link">ブログ</a></li>
+      <li class="footer-list__item"><a href="{{ "/about.html" | relative_url }}" class="footer-list__link">About</a></li>
+      <li class="footer-list__item"><a href="{{ "/rule.html" | relative_url }}" class="footer-list__link">利用規約</a></li>
     </ul>
     <div class="footer__lists">
       <h3>小説</h3>
       <ul class="footer-list">
-        <li class="footer-list__item"><a href="{{" /novel/michael-fragment/table-of-contents.html" | relative_url}}"
+        <li class="footer-list__item"><a href="{{ "/novel/michael-fragment/table-of-contents.html" | relative_url }}"
             class="footer-list__link">ミカエル・フラグメント</a></li>
-        <li class="footer-list__item"><a href="{{" /novel/lost-fragment/table-of-contents.html" | relative_url}}"
+        <li class="footer-list__item"><a href="{{ "/novel/lost-fragment/table-of-contents.html" | relative_url }}"
             class="footer-list__link">ロスト・フラグメント</a></li>
         <li class="footer-list__item"><a
-            href="{{" /novel/mythology-of-four-gods/table-of-contents.html" | relative_url}}"
+            href="{{ "/novel/mythology-of-four-gods/table-of-contents.html" | relative_url }}"
             class="footer-list__link">ミソロジーオブフォーゴッデス</a></li>
-        <li class="footer-list__item"><a href="{{" /novel/inheritance-child/table-of-contents.html" | relative_url}}"
+        <li class="footer-list__item"><a href="{{ "/novel/inheritance-child/table-of-contents.html" | relative_url }}"
             class="footer-list__link">インヘリタンスチャイルド</a>
         </li>
-        <li class="footer-list__item"><a href="{{" /novel/world-creation-log/table-of-contents.html" | relative_url}}"
+        <li class="footer-list__item"><a href="{{ "/novel/world-creation-log/table-of-contents.html" | relative_url }}"
             class="footer-list__link">世創記</a></li>
       </ul>
     </div>
