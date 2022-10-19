@@ -132,7 +132,7 @@
   align-items: center;
   background-size:cover;
   background-position: right bottom;
-  background-image: url({{ "/assets/img/susan-q-yin-2JIvboGLeho-unsplash.jpg" | relative_url }});
+  background-image: url({{ "/assets/img/top-page.webp" | relative_url }});
 }
 
 .first-section__wrap{
