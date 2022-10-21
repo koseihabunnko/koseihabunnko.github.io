@@ -181,6 +181,7 @@
 
 .card__body{
   height: 70%;
+  overflow: hidden;
   text-overflow: ellipsis;
   margin: 0.75em auto;
 }
