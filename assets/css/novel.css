@@ -1,6 +1,11 @@
 ---
 ---
 
+html,body{
+  height: 100vh;
+  writing-mode: vertical-rl;
+}
+
 li{
   list-style: none;
   margin-top: 1em;
@@ -10,12 +15,8 @@ a{
   text-decoration: none;
 }
 .novel{
-  writing-mode: vertical-rl;
-  display: flex;
   padding: 10%;
-  align-items: center;
   height: 100%;
-  margin: auto 0 auto auto;
   line-height: 18pt;
   font-size: 10.5pt;
 }
