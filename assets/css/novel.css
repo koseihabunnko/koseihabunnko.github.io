@@ -1,42 +1,50 @@
 ---
 ---
 
-html,body{
+html, body {
   height: 100vh;
   writing-mode: vertical-rl;
 }
 
-li{
+li {
   list-style: none;
   margin-top: 1em;
 }
-a{
+
+a {
   color: black;
   text-decoration: none;
 }
-.novel{
+
+.novel {
   padding: 10%;
   height: 100%;
   line-height: 18pt;
   font-size: 10.5pt;
 }
 
-h2{
+h2 {
   margin: 1em;
 }
 
-.novel__wrap{
+.novel__wrap {
   display: block;
   height: 148mm;
   margin: auto;
 }
 
-.novel__body{
+.novel__body {
   margin-top: 5%;
 }
-p{
+
+.novel__center {
+  text-align: center;
+}
+
+p {
   margin-right: 10pt;
 }
-rt{
+
+rt {
   font-size: 3pt;
 }
