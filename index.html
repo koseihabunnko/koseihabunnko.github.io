@@ -16,7 +16,7 @@ title: "Home"
   <div class="full-screen-section__wrap">
     <h2 class="full-screen-section__title">NEWS!</h2>
     <ul class="post-list">
-      {% for post in site.posts %}
+      {% for post in site.posts limit:5 %}
       <li class="post-list__item">
         <time class="post-list__time" datetime="{{ post.date }}">{{ post.date | date_to_string:"ordinal", "US"}}</time>
         <h2 class="post-list__title"><a class="post-list__link" href="{{ post.url }}">{{ post.title }}</a></h2>
