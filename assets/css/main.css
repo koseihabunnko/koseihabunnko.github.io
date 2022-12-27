@@ -113,6 +113,14 @@
   width: 100vw;
   height: 100vh;
   padding: 10vmin;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.full-screen-section--align-center{
+  width: 100vw;
+  height: 100vh;
+  padding: 10vmin;
   align-items: center;
   display: flex;
   box-sizing: border-box;
@@ -188,7 +196,6 @@
 }
 
 .post-list__excerpt{
-  margin-left: 2em;
 }
 
 
@@ -321,7 +328,23 @@
   .blog{
     padding: 5%;
   }
+  .post-list{
+    padding: 0;
+  }
+  .post-list__item{
+    margin-top: 3em;
+  }
+  .post-list__item:first-child{
+    margin-top: 0;
+  }
+  .post-list__time{
+    display: block;
+  }
   .card{
     width: 90%;
+  }
+  .footer-list{
+    margin: 0;
+    padding: 0;
   }
 }
