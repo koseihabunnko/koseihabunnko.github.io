@@ -10,7 +10,7 @@
 /*ヘッダー*/
 .header {
   position: fixed;
-  width: 100vw;
+  width: 100dvw;
   display: flex;
   padding: 0.5em 1em;
   background-color: var(--second-color);
@@ -92,8 +92,8 @@
 }
 
 .section{
-  width: 100vw;
-  padding: 5vw;
+  width: 100dvw;
+  padding: 5dvw;
   box-sizing: border-box;
 }
 
@@ -110,16 +110,16 @@
 }
 
 .full-screen-section{
-  width: 100vw;
-  height: 100vh;
+  width: 100dvw;
+  height: 100dvh;
   padding: 10vmin;
   display: flex;
   box-sizing: border-box;
 }
 
 .full-screen-section--align-center{
-  width: 100vw;
-  height: 100vh;
+  width: 100dvw;
+  height: 100dvh;
   padding: 10vmin;
   align-items: center;
   display: flex;
@@ -313,14 +313,14 @@
     bottom: 0;
     left: 0;
     z-index: 100;
-    width: 100vw;
-    height: 90vh;
+    width: 100dvw;
+    height: 90dvh;
     align-items: center;
     background-color: #b66700c2;
     text-shadow: 0 0 10pt #000000;
   }
   .section{
-    padding: 3vw;
+    padding: 3dvw;
   }
   .full-screen-section{
     padding: 5vmin;
