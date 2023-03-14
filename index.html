@@ -12,56 +12,50 @@ title: "Home"
     </div>
   </div>
 </section>
-<section class="full-screen-section">
-  <div class="full-screen-section__wrap">
-    <div class="section">
-      <h2 class="full-screen-section__title">NEWS!</h2>
-      <ul class="post-list">
-        {% for post in site.posts limit:5 %}
-        <li class="post-list__item">
-          <time class="post-list__time" datetime="{{ post.date }}">{{ post.date | date_to_string:"ordinal", "US"}}</time>
-          <h2 class="post-list__title"><a class="post-list__link" href="{{ post.url }}">{{ post.title }}</a></h2>
-          <div class="post-list__excerpt">{{ post.excerpt }}</div>
-        </li>
-        {% endfor %}
-      </ul>
-    </di >
-  </div>
+<section class="normal-section">
+  <h2 class="normal-section__title">NEWS!</h2>
+  <ul class="post-list">
+    {% for post in site.posts limit:5 %}
+    <li class="post-list__item">
+      <time class="post-list__time" datetime="{{ post.date }}">{{ post.date | date_to_string:"ordinal", "US"}}</time>
+      <h2 class="post-list__title"><a class="post-list__link" href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="post-list__excerpt">{{ post.excerpt }}</div>
+    </li>
+    {% endfor %}
+  </ul>
 </section>
-<section class="full-screen-section">
-  <div class="full-screen-section__wrap">
-    <h2 class="full-screen-section__title">小説</h2>
-    <div class="slider">
-      <div class="slider__item card">
-        <h3 class="card__title">ミカエル・フラグメント</h3>
-        <div class="card__author">鬼詠雪介</div>
-        <p class="card__body">{% include michael-fragment.txt %}</p>
-        <a class="card__button button" href="{{ "/novel.html#michael-fragment" | relative_url }}">目次</a>
-      </div>
-      <div class="slider__item card">
-        <h3 class="card__title">ロスト・フラグメント</h3>
-        <div class="card__author">鬼詠雪介</div>
-        <p class="card__body">{% include lost-fragment.txt %}</p>
-        <a class="card__button button" href="{{ "/novel.html#lost-fragment" | relative_url }}">目次</a>
-      </div>
-      <div class="slider__item card">
-        <h3 class="card__title">ミソロジーオブフォーゴッデス</h3>
-        <div class="card__author">雪</div>
-        <p class="card__body">{% include mythology-of-four-gods.txt %}</p>
-        <a class="card__button button" href="{{ "/novel.html#mythology-of-four-gods" | relative_url }}">目次</a>
-      </div>
-      <div class="slider__item card">
-        <h3 class="card__title">インヘリタンスチャイルド</h3>
-        <div class="card__author">雪</div>
-        <p class="card__body">{% include inheritance-child.txt %}</p>
-        <a class="card__button button" href="{{ "/novel.html#inheritance-child" | relative_url }}">目次</a>
-      </div>
-      <div class="slider__item card">
-        <h3 class="card__title">世創記</h3>
-        <div class="card__author">水天久麻</div>
-        <p class="card__body">{% include world-creation-log.txt %}</p>
-        <a class="card__button button" href="{{ "/novel.html#world-creation-log" | relative_url }}">目次</a>
-      </div>
+<section class="normal-section">
+  <h2 class="full-screen-section__title">小説</h2>
+  <div class="slider">
+    <div class="slider__item card">
+      <h3 class="card__title">ミカエル・フラグメント</h3>
+      <div class="card__author">鬼詠雪介</div>
+      <p class="card__body">{% include michael-fragment.txt %}</p>
+      <a class="card__button button" href="{{ "/novel.html#michael-fragment" | relative_url }}">目次</a>
+    </div>
+    <div class="slider__item card">
+      <h3 class="card__title">ロスト・フラグメント</h3>
+      <div class="card__author">鬼詠雪介</div>
+      <p class="card__body">{% include lost-fragment.txt %}</p>
+      <a class="card__button button" href="{{ "/novel.html#lost-fragment" | relative_url }}">目次</a>
+    </div>
+    <div class="slider__item card">
+      <h3 class="card__title">ミソロジーオブフォーゴッデス</h3>
+      <div class="card__author">雪</div>
+      <p class="card__body">{% include mythology-of-four-gods.txt %}</p>
+      <a class="card__button button" href="{{ "/novel.html#mythology-of-four-gods" | relative_url }}">目次</a>
+    </div>
+    <div class="slider__item card">
+      <h3 class="card__title">インヘリタンスチャイルド</h3>
+      <div class="card__author">雪</div>
+      <p class="card__body">{% include inheritance-child.txt %}</p>
+      <a class="card__button button" href="{{ "/novel.html#inheritance-child" | relative_url }}">目次</a>
+    </div>
+    <div class="slider__item card">
+      <h3 class="card__title">世創記</h3>
+      <div class="card__author">水天久麻</div>
+      <p class="card__body">{% include world-creation-log.txt %}</p>
+      <a class="card__button button" href="{{ "/novel.html#world-creation-log" | relative_url }}">目次</a>
     </div>
   </div>
 </section>
