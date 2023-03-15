@@ -1,0 +1,19 @@
+---
+---
+:root {
+  --background-color: #F3F2F2;
+  --second-color: #c67700;
+  --accent-color: #945400;
+  font-size: 10.5pt;
+}
+
+@import "header.scss";
+@import "section.scss";
+@import "full-screen-section.scss";
+// @import "first-section.scss";
+@import "main.scss";
+@import "section.scss";
+@import "normal-section";
+@import "post-list.scss";
+@import "slider.scss";
+@import "card.scss";

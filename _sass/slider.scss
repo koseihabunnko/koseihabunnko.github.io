@@ -1,0 +1,13 @@
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  background-color: var(--second-color);
+  height: 70%;
+
+  &__item {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    margin: 0.5rem;
+  }
+}

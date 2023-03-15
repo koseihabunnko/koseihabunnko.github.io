@@ -1,0 +1,18 @@
+.first-section {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: right bottom;
+  background-image: image-url({{ "/assets/img/top-page.webp" | relative_url }});
+
+  &__wrap {
+    padding: 1rem;
+    color: #000000;
+    text-shadow: 0 0 10px #ffffff;
+    background-color: #f3f2f28a;
+  }
+
+  &__body {
+    width: 12rem;
+  }
+}

@@ -1,0 +1,30 @@
+.card {
+  width: 20rem;
+  padding: 0.5rem;
+  background-color: var(--background-color);
+  position: relative;
+
+  &__title {
+    text-align: center;
+    margin: 0.75rem auto;
+  }
+
+  &__author {
+    text-align: right;
+  }
+
+  &__body {
+    height: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0.75rem auto;
+    line-height: 1.5rem;
+  }
+
+  &__button {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+}
