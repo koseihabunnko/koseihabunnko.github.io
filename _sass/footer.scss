@@ -1,0 +1,19 @@
+.footer {
+  background-color: var(--second-color);
+  padding: 3vmax 5vmax;
+  color: var(--background-color);
+
+  &__lists-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__lists {
+    width: 100%;
+    padding: 0;
+
+    &>h3 {
+      margin: 0;
+    }
+  }
+}

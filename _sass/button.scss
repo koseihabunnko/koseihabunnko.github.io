@@ -1,0 +1,14 @@
+.button {
+  display: block;
+  padding: 0.5rem 1rem;
+  background-color: #945400;
+  color: var(--background-color);
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  width: max-content;
+
+  &:hover {
+    background-color: #b66700;
+  }
+}

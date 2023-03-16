@@ -1,0 +1,19 @@
+.footer-list {
+  list-style: none;
+  margin-left: 0.5rem;
+
+  &__item {
+    list-style: none;
+    margin-left: 0.5rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+}
