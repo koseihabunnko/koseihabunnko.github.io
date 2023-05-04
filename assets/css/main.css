@@ -190,7 +190,7 @@ code{
 .normal-section__title {
   font-size: 2.5rem;
   border-bottom: 3px double var(--second-color);
-  height: 2.5rem;
+  line-height: 1.1em;
 }
 
 .post-list {
