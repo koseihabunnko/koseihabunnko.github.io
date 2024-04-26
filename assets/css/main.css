@@ -7,7 +7,7 @@
   font-size: 10.5pt;
 }
 
-code{
+code {
   background-color: #5c5c5c;
   color: white;
 }
@@ -102,11 +102,11 @@ code{
 }
 
 .section__body {
-  margin: 0.5rem 0 0.5rem 0.5rem;
+  margin: 0.5rem 0;
 }
 
 .section__button {
-  margin: auto 0 auto auto;
+  margin: 0.5rem 0 auto auto;
 }
 
 .full-screen-section {
@@ -225,7 +225,7 @@ code{
   margin-top: 0.5rem;
 }
 
-.post-list__excerpt>p{
+.post-list__excerpt>p {
   margin: 0;
 }
 
@@ -306,11 +306,11 @@ code{
   padding: 0;
 }
 
-.footer__lists>h3{
+.footer__lists>h3 {
   margin: 0;
 }
 
-.footer-list{
+.footer-list {
   padding: 0 0 1rem 0;
   margin: 0;
 }
@@ -367,7 +367,7 @@ code{
     background-color: #b66700c2;
   }
 
-  .header__item:hover .header__dropdown-list{
+        .header__item:hover .header__dropdown-list {
     display: none;
   }
 
