@@ -111,7 +111,7 @@ code {
 }
 
 .full-screen-section {
-  width: 100dvw;
+  width: 100%;
   height: 100dvh;
   padding: 10vmin;
   display: flex;
@@ -368,7 +368,7 @@ code {
     background-color: #b66700c2;
   }
 
-        .header__item:hover .header__dropdown-list {
+    .header__item:hover .header__dropdown-list {
     display: none;
   }
 
