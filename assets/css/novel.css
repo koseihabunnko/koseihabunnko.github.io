@@ -1,17 +1,8 @@
 ---
 ---
 
-html{
-  -webkit-text-size-adjust: none;
-  -moz-text-size-adjust: none;
-  text-size-adjust: none;
+html {
   writing-mode: vertical-rl;
-  height: 100dvh;
-  margin: 0;
-}
-body{
-  height: 100dvh;
-  margin: 0;
 }
 
 li {
@@ -29,7 +20,6 @@ a {
 }
 
 .novel {
-  height: 100%;
   line-height: 1.8em;
   font-size: 1rem;
   background-color: white;
