@@ -1,5 +1,6 @@
 window.onwheel = (WheelEvent) => {
-  window.scrollBy(-WheelEvent.deltaY, 0);
+  const novel = document.getElementsByTagName("body")[0];
+  novel.scrollBy(-WheelEvent.deltaY, 0);
 }
 window.addEventListener(scroll, (event) => {
   event.preventDefault();
