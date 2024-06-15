@@ -3,6 +3,7 @@
 /* Document
    ========================================================================== */
    @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;800&display=swap');
+   @import url('https://cdn.jsdelivr.net/npm/yakuhanjp@4.1.1/dist/css/yakuhanmp.css');
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -11,7 +12,11 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  font-family: 'Shippori Mincho', serif;
+  font-family: YakuHanMP,'Shippori Mincho', serif;
+  line-break:strict;
+  word-break:break-word;
+  overflow-wrap:break-word;
+  word-wrap:break-word;
 }
 
 /* Sections
