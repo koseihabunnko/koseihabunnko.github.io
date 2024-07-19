@@ -56,3 +56,11 @@ a {
 rt {
   font-size:  0.4rem;;
 }
+.paragraph-space-1{
+  margin-right: 1em;
+  margin-left: 1em;
+}
+.paragraph-space-5{
+  margin-right: 5em;
+  margin-left: 5em;
+}
