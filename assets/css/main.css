@@ -330,6 +330,11 @@ code {
   text-decoration: underline;
 }
 
+[src*="youtube"]{
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
 @media screen and (width<480px) {
   .header__navigation {
     display: none;
